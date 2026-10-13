@@ -26,8 +26,7 @@ PRESPECIFIED_METRICS = [
     "overall_network_segregation",
 ]
 
-# These counts are used only as a convenient check that the same frozen input
-# release was found. They are paper-result checks, not general software tests.
+# Expected cohort counts for the released study inputs.
 EXPECTED = {
     "participants": 1390,
     "sessions": 2789,

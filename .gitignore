@@ -1,7 +1,10 @@
-.DS_Store
+# Only source code and repository documentation are tracked.
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/analysis/
+/analysis/*
+!/analysis/*.py
 __pycache__/
 *.py[cod]
-.ipynb_checkpoints/
-.env
-.venv/
-venv/
